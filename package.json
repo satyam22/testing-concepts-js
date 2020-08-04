@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest mocking-concepts",
     "test:watch": "jest --watch",
-    "build": "webpack --mode development"
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [],
   "author": "",
@@ -17,10 +18,13 @@
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
     "express": "^4.17.1",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
     "jest": "^26.2.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
