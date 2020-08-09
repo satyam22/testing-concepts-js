@@ -1,7 +1,7 @@
 import React from 'react';
 
 const STATUS = {
-  NORMAL: 'normal',
+  NORMAL: 'normal1',
   HOVERED: 'hovered',
 };
 
